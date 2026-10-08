@@ -37,7 +37,7 @@ $(KERNEL): $(OBJECTS) linker/i386.ld
 
 check: $(KERNEL)
 	@command -v $(GRUB_FILE) >/dev/null || { echo "Missing $(GRUB_FILE); install GRUB utilities to check the Multiboot2 image."; exit 1; }
-	$(GRUB_FILE) --is-x86-multiboot2 $(KERNEL)
+	$(GRUB_FILE) --is-x86-multiboot $(KERNEL)
 
 iso: $(ISO)
 
