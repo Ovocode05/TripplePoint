@@ -1,0 +1,2 @@
+Hello, this text is loaded dynamically from an external file! 
+No re-compilation needed. NEURAL_OS rules.
