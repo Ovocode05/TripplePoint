@@ -1,4 +1,4 @@
-# MyOS
+# Tripple Point
 
 A small 32-bit x86 kernel project following the i686-elf and GRUB Multiboot2 tutorial path. The kernel starts in 32-bit protected mode and writes text to the framebuffer requested by its Multiboot2 header.
 
